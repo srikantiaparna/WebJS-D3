@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>UFO Sightings</title>
+  <!-- Linking Bootstrap stylesheet-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="static/css/style.css">
+  <style>
+    body {
+      background-image: url('static/images/space-stars.jpg');
+    }
+  </style>  
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="jumbotron" )>
+      <div class="container">
+        <figure>
+          <img src="static/images/ufo.jpg" id = "child" alt="UFO" width="150" height="100" align="center" >
+        </figure> 
+        <h1> ALIENS-R-REAL!!</h1>
+        <figure>
+        <img src="static/images/nasa.jpg" id = "parent" alt="Space" width="1000" height="300" align="middle">
+        </figure> 
+      </div>
+    </div>
+  </div>
+  <div></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="form-group">
+          <input type="text" class="form-control" id="date" placeholder="DateTime (M/D/YYYY):">
+          <input type="text" class="form-control" id="city" placeholder="City:">
+          <input type="text" class="form-control" id="state" placeholder="State(xx):">
+          <input type="text" class="form-control" id="country" placeholder="Country(xx):">
+          <input type="text" class="form-control" id="shape" placeholder="Shape:">
+          <a id="search" class="btn btn-default">SEARCH</a>
+          <a id="reset" class="btn btn-default">RESET</a>
+        </div>
+      </div>
+      <div class = "col-md-8">
+        <div class="intro">
+        <p>UFO Sightings: WAKE UP SHEEPLE! The extra-terrestrial menace has come to Earth and we here at ALIENS-R-REAL have collected
+           all of the eye-witness reports we could to prove it!!</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+            <table id= "maintable" class="table table-striped table-hover table-responsive">
+            <thead>
+              <tr id = "mainheader" style="text-align: center; border: solid navy;">
+                <th>DATETIME</th>
+                <th>CITY</th>
+                <th>STATE</th>
+                <th>COUNTRY</th>
+                <th>SHAPE</th>
+                <th>DURATION MINUTES</th>
+                <th>COMMENTS</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  <!-- </div> -->
+  </div>
+  <div class="footer navbar-fixed-bottom">
+      <div class="footer-top">
+        <p class="footer-text">&copy Copyright | Aparna Srikanti | 2018</p>
+      </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+  <script src="static/js/data.js"></script>
+  <script src="static/js/app.js"></script>
+
+</body>
+
+</html>

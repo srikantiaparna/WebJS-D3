@@ -1,0 +1,126 @@
+ /* /////////////////////////////////////////////////////////// */
+ /* Background Page Image
+ body {
+       background-image: url('static/images/space-stars.jpg');
+      } */
+
+  /* /////////////////////////////////////////////////////////// */
+/* Header/ Images Properties */
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px darkgreen;
+}
+
+.jumbotron {
+    width: 100%;
+    height: 100%;
+    padding:10px;
+    text-align: center;
+    margin-top: 30px;
+    border: inset white 10px;
+ }
+
+
+ #child{
+    position: absolute;
+    top: 150px;
+    left: 670px;
+ }
+
+ 
+/* /////////////////////////////////////////////////////////// */
+/* Input Data Filters Properties */
+.form-control{
+    color: dimgray;
+    background-color: navy;
+    border: inset white 5px;
+}
+
+/* /////////////////////////////////////////////////////////// */
+/* Hovering Properties on Search fields */
+.form-control:hover{
+    color: black;
+    background-color: white;
+ }
+
+/* /////////////////////////////////////////////////////////// */
+/* Reset Data Filter Button Properties */
+#reset{
+    color:red;
+    border: inset white 5px;
+}
+
+#search{
+    border: inset white 5px;
+}
+
+/* /////////////////////////////////////////////////////////// */
+/* Web Page Introduction Properties */
+.intro{
+    /* color: black; */
+    color: white;
+    font-family: Courier New, Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+    /* border: inset white 10px; */
+    margin-top:50px;
+}
+
+/* /////////////////////////////////////////////////////////// */
+/* Data HTML properties */
+
+#maintable {  
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse; 
+    border-spacing: 30px;
+    padding: 15px;
+    color: black;
+    margin-bottom:50px;
+    /* border: inset white 10px; */
+}
+
+#maintable td, th,thead {
+     border: 2.5px solid navy; 
+     text-align:  center;
+     color: black;
+    } 
+
+/* Alternate row colors */
+tr:nth-child(even) {background: #CCC} 
+tr:nth-child(odd) {background: #FFF}
+
+/* Color for table headers */
+th{
+  color: black;
+  background: #dbd6d2; 
+ }
+
+/* /////////////////////////////////////////////////////////// */
+/* Footer properties */
+.footer{
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    background-color: grey;
+    position: fixed;
+    margin-top: 20px;
+}
+
+.footer-text {
+    font-size: 14px;
+    margin-top: 5px;
+    color: navy;
+    text-align: center;
+    font-family: Courier New, Courier, monospace;
+    font-weight: bold;
+}
+
+.footer-top {
+    height: 5px;
+    padding-top: 2px;
+    background-color:navy;
+    position: fixed;
+    width: 100%;
+}
+
